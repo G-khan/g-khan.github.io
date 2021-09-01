@@ -1,32 +1,168 @@
----
-layout: base
----
-<div class="wrapper">
-  <header>
-    {% if site.compass.logo %}
-    <div class="logo-container">
-      <a class="logo" href="{{ page.baseurl }}"
-        style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-    </div>
-    {% endif %}
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://getbootstrap.com/docs/4.0/examples/cover/# -->
+<html lang="en">
 
-    {% if site.compass.author %}
-    <div class="author-container">
-      <h1>{{ site.compass.author }}</h1>
-    </div>
-    {% endif %}
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    {% if site.compass.tagline %}
-    <div class="tagline-container">
-      <p>{{ site.compass.tagline }}</p>
-    </div>
-    {% endif %}
-  </header>
-  <main>
-    {% if site.compass.include_content %}
-    <div class="content">
-      {% include content.html %}
-    </div>
-    {% endif %}
-  </main>
-</div>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./img/favicon.ico">
+
+  <title>Gökhan Ayrancıoğlu</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./style/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./style/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="text-center" data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
+
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <header class="head mb-auto">
+      <div class="inner">
+
+        <h3 class="head-brand">
+          <div class="logo"></div><span class="logo-title">
+            <span style="font-weight: 900;">Gökhan</span> Ayrancıoğlu</span>
+        </h3>
+        <nav class="nav nav-head justify-content-center">
+          <a class="nav-link active" href="https://gokhana.medium.com/" target="_blank">Blogs</a>
+        </nav>
+      </div>
+    </header>
+
+    <main role="main" class="inner cover mt-lg-5 pt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+              <div class="profile"></div>
+            </div>
+
+            <div class="d-flex justify-content-center mt-2 ml-1">
+              <a href="https://gokhana.medium.com/" target="_blank" class="fab fa-medium-m"></a>
+              <a href="https://www.linkedin.com/in/gokhan-a/" class="fab fa-linkedin-in" target="_blank"></a>
+              <a href="https://twitter.com/g_khana" class="fab fa-twitter" target="_blank"></a>
+              <a href="https://github.com/G-khan" class="fab fa-github" target="_blank"></a>
+            </div>
+          </div>
+
+          <div class="col mt-2 pt-2">
+            <span class="head-title">Hi, I am Gökhan,
+              Software Engineer</span>
+            <p class="lead head-text mt-3">I have been developing software applications since my High school
+              years. I started to work as a software engineer in 2016 and focused on backend development.
+            </p>
+            <div class="pt-1">
+              <a href="#" class="btn btn-outline-warning head-button">Download CV/Resume</a>
+              <a href="mailto:name@email.com" class="btn btn-outline-warning head-button">Mail me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 pb-2">
+        <div class="row">
+          <h3 class="blog-title pl-3">Blogs</h3>
+          <hr style="width:5em; ">
+        </div>
+      </div>
+
+      <div class="container">
+
+        <a style="color:#000"  target="_blank" href="https://medium.com/yemeksepeti-teknoloji/i%CC%87yi-bir-backend-geli%C5%9Ftirici-olmak-i%CC%87%C3%A7in-yol-haritas%C4%B1-e65646d198bc">
+
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-lg-4">
+                <img src="./img/iyi-backend-gelistirici.png"
+                  class="img-fluid rounded" alt="İyi Bir Backend Geliştirici Olmak İçin Yol Haritası">
+              </div>
+              <div class="col">
+                <div class="card-body  mt-0 pt-0 ml-0 pl-0">
+                  <h4 class="card-title"> İyi Bir Backend Geliştirici Olmak İçin Yol Haritası</h4>
+                  <p class="card-text">Bir çoğumuz iyi bir yazılım geliştirici olmak istiyoruz ve bunun için ciddi çaba
+                    sarfediyoruz. Bu yolda bazen önemli detayları kaçırıyor ve sadece iyi kod yazarak bu yolda çok büyük
+                    adımlar atabileceğimizi düşünüyoruz. İyi bir backend geliştirici olmak için sadece iyi kod yazmak
+                    yeterli olmaz.
+                  </p>
+                </div>
+              </div>
+            </div>
+        </a>
+        <a style="color:#000"  target="_blank" href="https://medium.com/yemeksepeti-teknoloji/kotlin-ile-backend-server-side-programlama-d570124812d8">
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-lg-4">
+                <img src="./img/Kotlin-ile-backend.png" class="img-fluid rounded"
+                  alt="...">
+              </div>
+              <div class="col">
+                <div class="card-body  mt-0 pt-0 ml-0 pl-0">
+                  <h4 class="card-title"> Kotlin ile Backend/Server Side Programlama
+                  </h4>
+                  <p class="card-text">2017 yılında Kotlin ilk çıktığı zamanlar herkes gibi ben de sadece Android
+                    odaklı
+                    bir programlama dili ortaya çıktığını düşünüyordum. Zaman içinde ise backend ile kullanıldığını
+                    duymaya başladım ve merakımı cezbetti, araştırıp ilgilenmeye başladım. Server tarafında kullanımı
+                    popülerleşti ve ...
+                  </p>
+                </div>
+              </div>
+            </div>
+        </a>
+        <a style="color:#000"  target="_blank" href="https://gokhana.medium.com/circuit-breaker-pattern-nedir-6d36f2fc35d0">
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-lg-4">
+                <img src="./img/circuit-breaker-pattern.png"
+                  class="img-fluid rounded" alt="...">
+              </div>
+              <div class="col">
+                <div class="card-body  mt-0 pt-0 ml-0 pl-0">
+                  <h4 class="card-title"> Circuit Breaker Pattern Nedir?
+
+                  </h4>
+                  <p class="card-text">Circuit Breaker Pattern, bir yazılımda hataları tespit ederek hatanın tekrar
+                    etmemesini sağlar. Böylece sistemde hataların tekrar etmesi sonucu oluşacak bloklanma, hizmet
+                    kesintileri, aşırı kaynak kullanımı gibi sorunlarla karşılaşılmasını önleyerek, sistemin
+                    sağlıklı
+                    çalışmasını amaçlar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+      <div class="d-flex justify-content-center">
+
+        <p class="lead">
+          <a href="https://gokhana.medium.com/" target="_blank" class="btn btn-outline-warning">Read more blog posts</a>
+        </p>
+      </div>
+
+    </main>
+    <hr>
+    <footer class="foot mt-auto footer-copyright text-center py-3">
+      <div class="inner">
+        <p>Copyright ©2021 All rights reserved </p>
+        <p>Made with Coffee <i class="fas fa-mug-hot"></i> </p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
